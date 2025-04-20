@@ -7,7 +7,7 @@ This is a template GitHub repo that you can use for starting your python develop
 Content:
 
 - [Set up your development environment](#set-up-your-development-environment)
-- [Adding more project depdencies](#adding-more-project-depdencies)
+- [Adding more project dependencies](#adding-more-project-dependencies)
 - [Working with makefile](#working-with-makefile)
 - [Working with notebooks](#working-with-notebooks)
 
@@ -88,7 +88,7 @@ make dev
 ```
 ___________________
 
-## Adding more project depdencies
+## Adding more project dependencies
 
 The `pyproject.toml` file supports main & optional depdendencies. `Main deprendencies` are used as the core of all your project, but the optional are used when you just want to perform some specifc tasks, reducing the size of your environment.
 
