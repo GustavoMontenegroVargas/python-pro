@@ -2,7 +2,7 @@
 
 [Add your project desciption here as same in pyproject.toml]
 
-This is a template GitHub repo that you can use for starting your python development journey. Follow the instructions listed below to learn how to use it.
+This is a GitHub repo template that you can use for starting your python development journey. Follow the instructions listed below to learn how to use it.
 
 Content:
 
