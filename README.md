@@ -158,6 +158,15 @@ Go `extensions > python > engine  symbol > settings > Python: Venv Folders`. The
 
 If an issue with `ipykernel` raises, then make sure to run `make dev` where thata dependency is listed. Reload the window and retry to run the notebook.
 
+> **Important**: Jupyter Notebooks don't automatically loads python scripts modifications. In order to fix this issue, use the following extensions at the top of any of your Jupyter Notebooks in an isolated cell:
+
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
+This cell just need to be executed one time per kernel session. For more info, see `everything_works.ipynb` file.
+
 ___________________
 
 **Happy Coding!**
